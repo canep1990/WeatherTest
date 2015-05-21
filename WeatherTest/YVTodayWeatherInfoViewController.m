@@ -52,7 +52,6 @@ static NSString * const kOKButtonTitle = @"OK";
         [MBProgressHUD hideHUDForView:self.view animated:YES];
         YVTodayWeatherInfoView *view = (YVTodayWeatherInfoView *)self.view;
         [view reloadTableData];
-        NSLog(@"responseCode: %@", responseCode);
         if (responseCode.intValue != kOKResponseStatusCode)
         {
             UIAlertController *controller = [UIAlertController alertControllerWithTitle:kErrorMessageString message:kErrorMessageDescriptionString preferredStyle:UIAlertControllerStyleAlert];

@@ -9,6 +9,7 @@
 #import "YVDescriptionWeatherCell.h"
 
 static float const kKelvinNumberToConvertToCelsius = 273.15;
+static NSString * const kDateFormat = @"dd.MM.yyyy";
 
 @interface YVDescriptionWeatherCell()
 
@@ -28,7 +29,7 @@ static float const kKelvinNumberToConvertToCelsius = 273.15;
     self.dayTempLabel.text = [NSString stringWithFormat:@"День: %.2f °C", [weatherModel.dayTemperature floatValue] - kKelvinNumberToConvertToCelsius];
     self.nightTempLabel.text = [NSString stringWithFormat:@"Ночь: %.2f °C", [weatherModel.nightTemperature floatValue] - kKelvinNumberToConvertToCelsius];
     NSDateFormatter *_formatter=[[NSDateFormatter alloc]init];
-    [_formatter setDateFormat:@"dd.MM.yyyy"];
+    [_formatter setDateFormat:kDateFormat];
     NSString *date2=[_formatter stringFromDate:weatherModel.date];
     self.dateLabel.text = date2;
     self.weatherDescriptionLabel.text = weatherModel.weatherDescription;
