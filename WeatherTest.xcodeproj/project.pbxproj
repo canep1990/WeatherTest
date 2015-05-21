@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64471C0B1F704A4FA5D93207 /* libPods-WeatherTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B14075DB8C419D94AFE656 /* libPods-WeatherTest.a */; };
+		EF3C9A4C1B0ABBF400AD8792 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C9A4B1B0ABBF400AD8792 /* main.m */; };
+		EF3C9A4F1B0ABBF400AD8792 /* YVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C9A4E1B0ABBF400AD8792 /* YVAppDelegate.m */; };
+		EF3C9A521B0ABBF400AD8792 /* WeatherTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF3C9A501B0ABBF400AD8792 /* WeatherTest.xcdatamodeld */; };
+		EF3C9A5A1B0ABBF400AD8792 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3C9A591B0ABBF400AD8792 /* Images.xcassets */; };
+		EF3C9A5D1B0ABBF400AD8792 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF3C9A5B1B0ABBF400AD8792 /* LaunchScreen.xib */; };
+		EF3C9A691B0ABBF400AD8792 /* WeatherTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C9A681B0ABBF400AD8792 /* WeatherTestTests.m */; };
+		EF3C9A7B1B0AC40D00AD8792 /* YVWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C9A7A1B0AC40D00AD8792 /* YVWeatherModel.m */; };
+		EF3C9A7E1B0AC88C00AD8792 /* YVCitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C9A7D1B0AC88C00AD8792 /* YVCitiesViewController.m */; };
+		EF3C9A811B0AC8A700AD8792 /* YVCitiesView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C9A801B0AC8A700AD8792 /* YVCitiesView.m */; };
+		EF3C9A831B0AC8C900AD8792 /* YVCitiesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF3C9A821B0AC8C900AD8792 /* YVCitiesView.xib */; };
+		EF3C9A881B0ACAF900AD8792 /* YVBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C9A871B0ACAF900AD8792 /* YVBaseTableViewCell.m */; };
+		EF3C9A8B1B0ACBA700AD8792 /* YVStartingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C9A8A1B0ACBA700AD8792 /* YVStartingCell.m */; };
+		EF3C9A8E1B0AD0AC00AD8792 /* YVBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C9A8D1B0AD0AC00AD8792 /* YVBaseView.m */; };
+		EF3C9A911B0ADE1D00AD8792 /* YVAddCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C9A901B0ADE1D00AD8792 /* YVAddCityViewController.m */; };
+		EF3C9A941B0ADE3C00AD8792 /* YVAddCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C9A931B0ADE3C00AD8792 /* YVAddCityView.m */; };
+		EF3C9A961B0ADE4B00AD8792 /* YVAddCityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF3C9A951B0ADE4B00AD8792 /* YVAddCityView.xib */; };
+		EF3C9A991B0AE3E400AD8792 /* YVAddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C9A981B0AE3E400AD8792 /* YVAddCell.m */; };
+		EF3C9A9D1B0AE4EC00AD8792 /* YVAddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF3C9A9C1B0AE4EC00AD8792 /* YVAddCell.xib */; };
+		EF4D8E651B0C593800BFCA0D /* YVDetailedWeatherInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4D8E641B0C593800BFCA0D /* YVDetailedWeatherInfoViewController.m */; };
+		EF4D8E681B0C594E00BFCA0D /* YVDetailedWeatherInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4D8E671B0C594E00BFCA0D /* YVDetailedWeatherInfoView.m */; };
+		EF4D8E6A1B0C5A2100BFCA0D /* YVDetailedWeatherInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4D8E691B0C5A2100BFCA0D /* YVDetailedWeatherInfoView.xib */; };
+		EF67EEE31B0B1E100007FF8E /* YVBaseSelectableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67EEE21B0B1E100007FF8E /* YVBaseSelectableTableViewCell.m */; };
+		EF67EEE61B0B20470007FF8E /* YVTodayWeatherInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67EEE51B0B20470007FF8E /* YVTodayWeatherInfoViewController.m */; };
+		EF67EEE91B0B20640007FF8E /* YVTodayWeatherInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67EEE81B0B20640007FF8E /* YVTodayWeatherInfoView.m */; };
+		EF67EEEB1B0B20F00007FF8E /* YVTodayWeatherInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF67EEEA1B0B20F00007FF8E /* YVTodayWeatherInfoView.xib */; };
+		EF67EEF21B0C0C230007FF8E /* YVWeatherDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67EEF11B0C0C230007FF8E /* YVWeatherDataLoader.m */; };
+		EF67EEFC1B0C21A10007FF8E /* YVWeatherDescriptionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67EEFB1B0C21A10007FF8E /* YVWeatherDescriptionModel.m */; };
+		EF67EEFF1B0C2ABB0007FF8E /* YVSimpleTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67EEFE1B0C2ABB0007FF8E /* YVSimpleTextCell.m */; };
+		EF67EF021B0C2BBA0007FF8E /* YVSimpleWeatherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67EF011B0C2BBA0007FF8E /* YVSimpleWeatherCell.m */; };
+		EF67EF051B0C2D870007FF8E /* YVDescriptionWeatherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67EF041B0C2D870007FF8E /* YVDescriptionWeatherCell.m */; };
+		EF67EF071B0C2D990007FF8E /* YVDescriptionWeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF67EF061B0C2D990007FF8E /* YVDescriptionWeatherCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF3C9A631B0ABBF400AD8792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF3C9A3E1B0ABBF300AD8792 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF3C9A451B0ABBF400AD8792;
+			remoteInfo = WeatherTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58B14075DB8C419D94AFE656 /* libPods-WeatherTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeatherTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D351E5E679B4D17BFCEBFC8 /* Pods-WeatherTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherTest.xcconfig"; path = "Pods/Pods-WeatherTest.xcconfig"; sourceTree = "<group>"; };
+		EF3C9A461B0ABBF400AD8792 /* WeatherTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3C9A4A1B0ABBF400AD8792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3C9A4B1B0ABBF400AD8792 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF3C9A4D1B0ABBF400AD8792 /* YVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVAppDelegate.h; sourceTree = "<group>"; };
+		EF3C9A4E1B0ABBF400AD8792 /* YVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVAppDelegate.m; sourceTree = "<group>"; };
+		EF3C9A511B0ABBF400AD8792 /* WeatherTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeatherTest.xcdatamodel; sourceTree = "<group>"; };
+		EF3C9A591B0ABBF400AD8792 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF3C9A5C1B0ABBF400AD8792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF3C9A621B0ABBF400AD8792 /* WeatherTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3C9A671B0ABBF400AD8792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3C9A681B0ABBF400AD8792 /* WeatherTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherTestTests.m; sourceTree = "<group>"; };
+		EF3C9A791B0AC40D00AD8792 /* YVWeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YVWeatherModel.h; path = ../YVWeatherModel.h; sourceTree = "<group>"; };
+		EF3C9A7A1B0AC40D00AD8792 /* YVWeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YVWeatherModel.m; path = ../YVWeatherModel.m; sourceTree = "<group>"; };
+		EF3C9A7C1B0AC88C00AD8792 /* YVCitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVCitiesViewController.h; sourceTree = "<group>"; };
+		EF3C9A7D1B0AC88C00AD8792 /* YVCitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVCitiesViewController.m; sourceTree = "<group>"; };
+		EF3C9A7F1B0AC8A700AD8792 /* YVCitiesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVCitiesView.h; sourceTree = "<group>"; };
+		EF3C9A801B0AC8A700AD8792 /* YVCitiesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVCitiesView.m; sourceTree = "<group>"; };
+		EF3C9A821B0AC8C900AD8792 /* YVCitiesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YVCitiesView.xib; sourceTree = "<group>"; };
+		EF3C9A861B0ACAF900AD8792 /* YVBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVBaseTableViewCell.h; sourceTree = "<group>"; };
+		EF3C9A871B0ACAF900AD8792 /* YVBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVBaseTableViewCell.m; sourceTree = "<group>"; };
+		EF3C9A891B0ACBA700AD8792 /* YVStartingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVStartingCell.h; sourceTree = "<group>"; };
+		EF3C9A8A1B0ACBA700AD8792 /* YVStartingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVStartingCell.m; sourceTree = "<group>"; };
+		EF3C9A8C1B0AD0AC00AD8792 /* YVBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVBaseView.h; sourceTree = "<group>"; };
+		EF3C9A8D1B0AD0AC00AD8792 /* YVBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVBaseView.m; sourceTree = "<group>"; };
+		EF3C9A8F1B0ADE1D00AD8792 /* YVAddCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVAddCityViewController.h; sourceTree = "<group>"; };
+		EF3C9A901B0ADE1D00AD8792 /* YVAddCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVAddCityViewController.m; sourceTree = "<group>"; };
+		EF3C9A921B0ADE3C00AD8792 /* YVAddCityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVAddCityView.h; sourceTree = "<group>"; };
+		EF3C9A931B0ADE3C00AD8792 /* YVAddCityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVAddCityView.m; sourceTree = "<group>"; };
+		EF3C9A951B0ADE4B00AD8792 /* YVAddCityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YVAddCityView.xib; sourceTree = "<group>"; };
+		EF3C9A971B0AE3E400AD8792 /* YVAddCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVAddCell.h; sourceTree = "<group>"; };
+		EF3C9A981B0AE3E400AD8792 /* YVAddCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVAddCell.m; sourceTree = "<group>"; };
+		EF3C9A9C1B0AE4EC00AD8792 /* YVAddCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YVAddCell.xib; sourceTree = "<group>"; };
+		EF4D8E631B0C593800BFCA0D /* YVDetailedWeatherInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVDetailedWeatherInfoViewController.h; sourceTree = "<group>"; };
+		EF4D8E641B0C593800BFCA0D /* YVDetailedWeatherInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVDetailedWeatherInfoViewController.m; sourceTree = "<group>"; };
+		EF4D8E661B0C594E00BFCA0D /* YVDetailedWeatherInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVDetailedWeatherInfoView.h; sourceTree = "<group>"; };
+		EF4D8E671B0C594E00BFCA0D /* YVDetailedWeatherInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVDetailedWeatherInfoView.m; sourceTree = "<group>"; };
+		EF4D8E691B0C5A2100BFCA0D /* YVDetailedWeatherInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YVDetailedWeatherInfoView.xib; sourceTree = "<group>"; };
+		EF67EEE11B0B1E100007FF8E /* YVBaseSelectableTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVBaseSelectableTableViewCell.h; sourceTree = "<group>"; };
+		EF67EEE21B0B1E100007FF8E /* YVBaseSelectableTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVBaseSelectableTableViewCell.m; sourceTree = "<group>"; };
+		EF67EEE41B0B20470007FF8E /* YVTodayWeatherInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVTodayWeatherInfoViewController.h; sourceTree = "<group>"; };
+		EF67EEE51B0B20470007FF8E /* YVTodayWeatherInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVTodayWeatherInfoViewController.m; sourceTree = "<group>"; };
+		EF67EEE71B0B20640007FF8E /* YVTodayWeatherInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVTodayWeatherInfoView.h; sourceTree = "<group>"; };
+		EF67EEE81B0B20640007FF8E /* YVTodayWeatherInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVTodayWeatherInfoView.m; sourceTree = "<group>"; };
+		EF67EEEA1B0B20F00007FF8E /* YVTodayWeatherInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YVTodayWeatherInfoView.xib; sourceTree = "<group>"; };
+		EF67EEF01B0C0C230007FF8E /* YVWeatherDataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVWeatherDataLoader.h; sourceTree = "<group>"; };
+		EF67EEF11B0C0C230007FF8E /* YVWeatherDataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVWeatherDataLoader.m; sourceTree = "<group>"; };
+		EF67EEFA1B0C21A10007FF8E /* YVWeatherDescriptionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YVWeatherDescriptionModel.h; path = ../YVWeatherDescriptionModel.h; sourceTree = "<group>"; };
+		EF67EEFB1B0C21A10007FF8E /* YVWeatherDescriptionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YVWeatherDescriptionModel.m; path = ../YVWeatherDescriptionModel.m; sourceTree = "<group>"; };
+		EF67EEFD1B0C2ABB0007FF8E /* YVSimpleTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVSimpleTextCell.h; sourceTree = "<group>"; };
+		EF67EEFE1B0C2ABB0007FF8E /* YVSimpleTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVSimpleTextCell.m; sourceTree = "<group>"; };
+		EF67EF001B0C2BBA0007FF8E /* YVSimpleWeatherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVSimpleWeatherCell.h; sourceTree = "<group>"; };
+		EF67EF011B0C2BBA0007FF8E /* YVSimpleWeatherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVSimpleWeatherCell.m; sourceTree = "<group>"; };
+		EF67EF031B0C2D870007FF8E /* YVDescriptionWeatherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVDescriptionWeatherCell.h; sourceTree = "<group>"; };
+		EF67EF041B0C2D870007FF8E /* YVDescriptionWeatherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVDescriptionWeatherCell.m; sourceTree = "<group>"; };
+		EF67EF061B0C2D990007FF8E /* YVDescriptionWeatherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YVDescriptionWeatherCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF3C9A431B0ABBF400AD8792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64471C0B1F704A4FA5D93207 /* libPods-WeatherTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3C9A5F1B0ABBF400AD8792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2911051AC5114510A824DC0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58B14075DB8C419D94AFE656 /* libPods-WeatherTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF3C9A3D1B0ABBF300AD8792 = {
+			isa = PBXGroup;
+			children = (
+				EF3C9A481B0ABBF400AD8792 /* WeatherTest */,
+				EF3C9A651B0ABBF400AD8792 /* WeatherTestTests */,
+				EF3C9A471B0ABBF400AD8792 /* Products */,
+				5D351E5E679B4D17BFCEBFC8 /* Pods-WeatherTest.xcconfig */,
+				2911051AC5114510A824DC0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF3C9A471B0ABBF400AD8792 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C9A461B0ABBF400AD8792 /* WeatherTest.app */,
+				EF3C9A621B0ABBF400AD8792 /* WeatherTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF3C9A481B0ABBF400AD8792 /* WeatherTest */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C9A731B0ABC1B00AD8792 /* AppDelegate/Resources */,
+				EF3C9A721B0ABC0E00AD8792 /* Classes */,
+				EF3C9A491B0ABBF400AD8792 /* Supporting Files */,
+			);
+			path = WeatherTest;
+			sourceTree = "<group>";
+		};
+		EF3C9A491B0ABBF400AD8792 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C9A4A1B0ABBF400AD8792 /* Info.plist */,
+				EF3C9A4B1B0ABBF400AD8792 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF3C9A651B0ABBF400AD8792 /* WeatherTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C9A681B0ABBF400AD8792 /* WeatherTestTests.m */,
+				EF3C9A661B0ABBF400AD8792 /* Supporting Files */,
+			);
+			path = WeatherTestTests;
+			sourceTree = "<group>";
+		};
+		EF3C9A661B0ABBF400AD8792 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C9A671B0ABBF400AD8792 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF3C9A721B0ABC0E00AD8792 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C9A761B0ABC3800AD8792 /* Model */,
+				EF3C9A751B0ABC3300AD8792 /* Controller */,
+				EF3C9A741B0ABC2E00AD8792 /* View */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		EF3C9A731B0ABC1B00AD8792 /* AppDelegate/Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C9A4D1B0ABBF400AD8792 /* YVAppDelegate.h */,
+				EF3C9A4E1B0ABBF400AD8792 /* YVAppDelegate.m */,
+				EF3C9A591B0ABBF400AD8792 /* Images.xcassets */,
+				EF3C9A5B1B0ABBF400AD8792 /* LaunchScreen.xib */,
+				EF3C9A501B0ABBF400AD8792 /* WeatherTest.xcdatamodeld */,
+			);
+			name = AppDelegate/Resources;
+			sourceTree = "<group>";
+		};
+		EF3C9A741B0ABC2E00AD8792 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C9A851B0AC94C00AD8792 /* Cells */,
+				EF3C9A841B0AC93F00AD8792 /* ViewsForControllers */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EF3C9A751B0ABC3300AD8792 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C9A7C1B0AC88C00AD8792 /* YVCitiesViewController.h */,
+				EF3C9A7D1B0AC88C00AD8792 /* YVCitiesViewController.m */,
+				EF3C9A8F1B0ADE1D00AD8792 /* YVAddCityViewController.h */,
+				EF3C9A901B0ADE1D00AD8792 /* YVAddCityViewController.m */,
+				EF67EEE41B0B20470007FF8E /* YVTodayWeatherInfoViewController.h */,
+				EF67EEE51B0B20470007FF8E /* YVTodayWeatherInfoViewController.m */,
+				EF4D8E631B0C593800BFCA0D /* YVDetailedWeatherInfoViewController.h */,
+				EF4D8E641B0C593800BFCA0D /* YVDetailedWeatherInfoViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EF3C9A761B0ABC3800AD8792 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF67EEEF1B0C0BBB0007FF8E /* Networking */,
+				EF3C9A781B0AC15200AD8792 /* CoreDataModel */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EF3C9A781B0AC15200AD8792 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				EF67EEFA1B0C21A10007FF8E /* YVWeatherDescriptionModel.h */,
+				EF67EEFB1B0C21A10007FF8E /* YVWeatherDescriptionModel.m */,
+				EF3C9A791B0AC40D00AD8792 /* YVWeatherModel.h */,
+				EF3C9A7A1B0AC40D00AD8792 /* YVWeatherModel.m */,
+			);
+			name = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		EF3C9A841B0AC93F00AD8792 /* ViewsForControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C9A8C1B0AD0AC00AD8792 /* YVBaseView.h */,
+				EF3C9A8D1B0AD0AC00AD8792 /* YVBaseView.m */,
+				EF3C9A7F1B0AC8A700AD8792 /* YVCitiesView.h */,
+				EF3C9A801B0AC8A700AD8792 /* YVCitiesView.m */,
+				EF3C9A821B0AC8C900AD8792 /* YVCitiesView.xib */,
+				EF3C9A921B0ADE3C00AD8792 /* YVAddCityView.h */,
+				EF3C9A931B0ADE3C00AD8792 /* YVAddCityView.m */,
+				EF3C9A951B0ADE4B00AD8792 /* YVAddCityView.xib */,
+				EF67EEE71B0B20640007FF8E /* YVTodayWeatherInfoView.h */,
+				EF67EEE81B0B20640007FF8E /* YVTodayWeatherInfoView.m */,
+				EF67EEEA1B0B20F00007FF8E /* YVTodayWeatherInfoView.xib */,
+				EF4D8E661B0C594E00BFCA0D /* YVDetailedWeatherInfoView.h */,
+				EF4D8E671B0C594E00BFCA0D /* YVDetailedWeatherInfoView.m */,
+				EF4D8E691B0C5A2100BFCA0D /* YVDetailedWeatherInfoView.xib */,
+			);
+			name = ViewsForControllers;
+			sourceTree = "<group>";
+		};
+		EF3C9A851B0AC94C00AD8792 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C9A861B0ACAF900AD8792 /* YVBaseTableViewCell.h */,
+				EF3C9A871B0ACAF900AD8792 /* YVBaseTableViewCell.m */,
+				EF67EEE11B0B1E100007FF8E /* YVBaseSelectableTableViewCell.h */,
+				EF67EEE21B0B1E100007FF8E /* YVBaseSelectableTableViewCell.m */,
+				EF67EF001B0C2BBA0007FF8E /* YVSimpleWeatherCell.h */,
+				EF67EF011B0C2BBA0007FF8E /* YVSimpleWeatherCell.m */,
+				EF3C9A891B0ACBA700AD8792 /* YVStartingCell.h */,
+				EF3C9A8A1B0ACBA700AD8792 /* YVStartingCell.m */,
+				EF3C9A971B0AE3E400AD8792 /* YVAddCell.h */,
+				EF3C9A981B0AE3E400AD8792 /* YVAddCell.m */,
+				EF3C9A9C1B0AE4EC00AD8792 /* YVAddCell.xib */,
+				EF67EEFD1B0C2ABB0007FF8E /* YVSimpleTextCell.h */,
+				EF67EEFE1B0C2ABB0007FF8E /* YVSimpleTextCell.m */,
+				EF67EF031B0C2D870007FF8E /* YVDescriptionWeatherCell.h */,
+				EF67EF041B0C2D870007FF8E /* YVDescriptionWeatherCell.m */,
+				EF67EF061B0C2D990007FF8E /* YVDescriptionWeatherCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		EF67EEEF1B0C0BBB0007FF8E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EF67EEF01B0C0C230007FF8E /* YVWeatherDataLoader.h */,
+				EF67EEF11B0C0C230007FF8E /* YVWeatherDataLoader.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF3C9A451B0ABBF400AD8792 /* WeatherTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3C9A6C1B0ABBF400AD8792 /* Build configuration list for PBXNativeTarget "WeatherTest" */;
+			buildPhases = (
+				DD5E693826AF4217B4DE065C /* Check Pods Manifest.lock */,
+				EF3C9A421B0ABBF400AD8792 /* Sources */,
+				EF3C9A431B0ABBF400AD8792 /* Frameworks */,
+				EF3C9A441B0ABBF400AD8792 /* Resources */,
+				E50B2E249965438D840F0F3E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeatherTest;
+			productName = WeatherTest;
+			productReference = EF3C9A461B0ABBF400AD8792 /* WeatherTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF3C9A611B0ABBF400AD8792 /* WeatherTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3C9A6F1B0ABBF400AD8792 /* Build configuration list for PBXNativeTarget "WeatherTestTests" */;
+			buildPhases = (
+				EF3C9A5E1B0ABBF400AD8792 /* Sources */,
+				EF3C9A5F1B0ABBF400AD8792 /* Frameworks */,
+				EF3C9A601B0ABBF400AD8792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF3C9A641B0ABBF400AD8792 /* PBXTargetDependency */,
+			);
+			name = WeatherTestTests;
+			productName = WeatherTestTests;
+			productReference = EF3C9A621B0ABBF400AD8792 /* WeatherTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF3C9A3E1B0ABBF300AD8792 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Юрий Воскресенский";
+				TargetAttributes = {
+					EF3C9A451B0ABBF400AD8792 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					EF3C9A611B0ABBF400AD8792 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = EF3C9A451B0ABBF400AD8792;
+					};
+				};
+			};
+			buildConfigurationList = EF3C9A411B0ABBF300AD8792 /* Build configuration list for PBXProject "WeatherTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF3C9A3D1B0ABBF300AD8792;
+			productRefGroup = EF3C9A471B0ABBF400AD8792 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF3C9A451B0ABBF400AD8792 /* WeatherTest */,
+				EF3C9A611B0ABBF400AD8792 /* WeatherTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF3C9A441B0ABBF400AD8792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4D8E6A1B0C5A2100BFCA0D /* YVDetailedWeatherInfoView.xib in Resources */,
+				EF3C9A5D1B0ABBF400AD8792 /* LaunchScreen.xib in Resources */,
+				EF3C9A9D1B0AE4EC00AD8792 /* YVAddCell.xib in Resources */,
+				EF67EEEB1B0B20F00007FF8E /* YVTodayWeatherInfoView.xib in Resources */,
+				EF3C9A5A1B0ABBF400AD8792 /* Images.xcassets in Resources */,
+				EF3C9A961B0ADE4B00AD8792 /* YVAddCityView.xib in Resources */,
+				EF67EF071B0C2D990007FF8E /* YVDescriptionWeatherCell.xib in Resources */,
+				EF3C9A831B0AC8C900AD8792 /* YVCitiesView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3C9A601B0ABBF400AD8792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD5E693826AF4217B4DE065C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E50B2E249965438D840F0F3E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-WeatherTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF3C9A421B0ABBF400AD8792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4D8E681B0C594E00BFCA0D /* YVDetailedWeatherInfoView.m in Sources */,
+				EF67EEF21B0C0C230007FF8E /* YVWeatherDataLoader.m in Sources */,
+				EF67EF021B0C2BBA0007FF8E /* YVSimpleWeatherCell.m in Sources */,
+				EF3C9A941B0ADE3C00AD8792 /* YVAddCityView.m in Sources */,
+				EF3C9A4F1B0ABBF400AD8792 /* YVAppDelegate.m in Sources */,
+				EF3C9A8E1B0AD0AC00AD8792 /* YVBaseView.m in Sources */,
+				EF3C9A911B0ADE1D00AD8792 /* YVAddCityViewController.m in Sources */,
+				EF67EEE91B0B20640007FF8E /* YVTodayWeatherInfoView.m in Sources */,
+				EF67EEE61B0B20470007FF8E /* YVTodayWeatherInfoViewController.m in Sources */,
+				EF3C9A881B0ACAF900AD8792 /* YVBaseTableViewCell.m in Sources */,
+				EF3C9A7E1B0AC88C00AD8792 /* YVCitiesViewController.m in Sources */,
+				EF4D8E651B0C593800BFCA0D /* YVDetailedWeatherInfoViewController.m in Sources */,
+				EF3C9A521B0ABBF400AD8792 /* WeatherTest.xcdatamodeld in Sources */,
+				EF67EEE31B0B1E100007FF8E /* YVBaseSelectableTableViewCell.m in Sources */,
+				EF67EF051B0C2D870007FF8E /* YVDescriptionWeatherCell.m in Sources */,
+				EF3C9A4C1B0ABBF400AD8792 /* main.m in Sources */,
+				EF3C9A811B0AC8A700AD8792 /* YVCitiesView.m in Sources */,
+				EF67EEFC1B0C21A10007FF8E /* YVWeatherDescriptionModel.m in Sources */,
+				EF3C9A8B1B0ACBA700AD8792 /* YVStartingCell.m in Sources */,
+				EF3C9A991B0AE3E400AD8792 /* YVAddCell.m in Sources */,
+				EF3C9A7B1B0AC40D00AD8792 /* YVWeatherModel.m in Sources */,
+				EF67EEFF1B0C2ABB0007FF8E /* YVSimpleTextCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3C9A5E1B0ABBF400AD8792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3C9A691B0ABBF400AD8792 /* WeatherTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF3C9A641B0ABBF400AD8792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF3C9A451B0ABBF400AD8792 /* WeatherTest */;
+			targetProxy = EF3C9A631B0ABBF400AD8792 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF3C9A5B1B0ABBF400AD8792 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3C9A5C1B0ABBF400AD8792 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF3C9A6A1B0ABBF400AD8792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF3C9A6B1B0ABBF400AD8792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF3C9A6D1B0ABBF400AD8792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D351E5E679B4D17BFCEBFC8 /* Pods-WeatherTest.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeatherTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF3C9A6E1B0ABBF400AD8792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D351E5E679B4D17BFCEBFC8 /* Pods-WeatherTest.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeatherTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF3C9A701B0ABBF400AD8792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeatherTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherTest.app/WeatherTest";
+			};
+			name = Debug;
+		};
+		EF3C9A711B0ABBF400AD8792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeatherTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherTest.app/WeatherTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF3C9A411B0ABBF300AD8792 /* Build configuration list for PBXProject "WeatherTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3C9A6A1B0ABBF400AD8792 /* Debug */,
+				EF3C9A6B1B0ABBF400AD8792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3C9A6C1B0ABBF400AD8792 /* Build configuration list for PBXNativeTarget "WeatherTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3C9A6D1B0ABBF400AD8792 /* Debug */,
+				EF3C9A6E1B0ABBF400AD8792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3C9A6F1B0ABBF400AD8792 /* Build configuration list for PBXNativeTarget "WeatherTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3C9A701B0ABBF400AD8792 /* Debug */,
+				EF3C9A711B0ABBF400AD8792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF3C9A501B0ABBF400AD8792 /* WeatherTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF3C9A511B0ABBF400AD8792 /* WeatherTest.xcdatamodel */,
+			);
+			currentVersion = EF3C9A511B0ABBF400AD8792 /* WeatherTest.xcdatamodel */;
+			path = WeatherTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF3C9A3E1B0ABBF300AD8792 /* Project object */;
+}
