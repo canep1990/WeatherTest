@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1F8AACFB-7FFF-4C7E-84CB-021D6A506029</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WeatherTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2F8A391085A054A5C91BD7C3AA40AD713F4FF00D</key>
+		<string>https://github.com/canep1990/WeatherTest</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WeatherTest.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2F8A391085A054A5C91BD7C3AA40AD713F4FF00D</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/canep1990/WeatherTest</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2F8A391085A054A5C91BD7C3AA40AD713F4FF00D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2F8A391085A054A5C91BD7C3AA40AD713F4FF00D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WeatherTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
